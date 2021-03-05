@@ -4,5 +4,6 @@
 sudo adduser $1
 sudo usermod -aG spci $1
 sudo usermod -aG spci jenkins
+sudo chown -r :spci /home/$1
 
 echo "lsreg: User $1 added!"
