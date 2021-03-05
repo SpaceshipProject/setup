@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export CCACHE_DIR=/home/$1
+export USE_CCACHE=1
+ccache -M 50G
+cd /home/$1

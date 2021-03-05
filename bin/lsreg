@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Spaceship Adduser script
+sudo adduser $1
+sudo usermod -aG spci $1
+sudo usermod -aG spci jenkins
+
+echo "lsreg: User $1 added!"

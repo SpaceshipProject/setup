@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Spaceship Adduser script
+sudo userdel $1
+sudo rm -rf /home/$1
+
+echo "lsdel: User $1 deleted!"
