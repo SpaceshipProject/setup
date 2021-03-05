@@ -1,0 +1,6 @@
+# SpaceshipProject Setup script
+
+How to use?
+```
+. setup.sh
+```
